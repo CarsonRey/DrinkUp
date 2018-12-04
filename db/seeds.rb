@@ -11,6 +11,15 @@
 carson = User.create(username: "Carson")
 randy = User.create(username: "Randy")
 
+# DRINKS
+margarita = Drink.create(name:"Margarita")
+tequila_sunrise = Drink.create(name:"Tequila Sunrise")
+dark_n_stormy = Drink.create(name:"Dark N' Stormy")
+long_island = Drink.create(name:"Long Island Iced Tea")
+gin_and_tonic = Drink.create(name:"Gin & Tonic")
+martini = Drink.create(name:"Martini")
+negroni = Drink.create(name:"Negroni")
+
 # INGREDIENTS
 dark_rum = Ingredient.create(name: "Dark Rum")
 tequila = Ingredient.create(name: "tequila")
@@ -28,13 +37,3 @@ dry_vermouth = Ingredient.create(name: "Dry Vermouth")
 sweet_red_vermouth = Ingredient.create(name: "Sweet Red Vermouth")
 campari = Ingredient.create(name: "Campari")
 tonic = Ingredient.create(name: "Tonic")
-
-
-# DRINKS
-margarita = Drink.create(name:"Margarita")
-tequila_sunrise = Drink.create(name:"Tequila Sunrise")
-dark_n_stormy = Drink.create(name:"Dark N' Stormy")
-long_island = Drink.create(name:"Long Island Iced Tea")
-gin_and_tonic = Drink.create(name:"Gin & Tonic")
-martini = Drink.create(name:"Martini")
-negroni = Drink.create(name:"Negroni")
