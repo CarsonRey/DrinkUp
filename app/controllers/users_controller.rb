@@ -1,6 +1,11 @@
 class UsersController < ApplicationController
 
-  
+  def index
+    @users = User.all
+    render json: @users
+    # @drinks = Drink.all
+    # render json: @drinks
+  end
 
   def create
       @user = User.new(user_params)
