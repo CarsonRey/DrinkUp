@@ -22,7 +22,7 @@ negroni = Drink.create(name:"Negroni")
 
 # INGREDIENTS
 dark_rum = Ingredient.create(name: "Dark Rum")
-tequila = Ingredient.create(name: "tequila")
+tequila = Ingredient.create(name: "Tequila")
 gin = Ingredient.create(name: "Gin")
 vodka = Ingredient.create(name: "Vodka")
 lime = Ingredient.create(name: "Lime")
@@ -37,3 +37,5 @@ dry_vermouth = Ingredient.create(name: "Dry Vermouth")
 sweet_red_vermouth = Ingredient.create(name: "Sweet Red Vermouth")
 campari = Ingredient.create(name: "Campari")
 tonic = Ingredient.create(name: "Tonic")
+
+# ASSOCIATIONS
